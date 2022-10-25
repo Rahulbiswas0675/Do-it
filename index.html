@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyNote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1 class="logos">Do-It</h1>
+        </div>
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Task</a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Create Your Task List</h1>
+        <form class="form">
+            <div class="todoinput">
+                <input type="text" class="todo-input" placeholder="What would you like to do">
+                <button type="submit" onclick="onAddEventHandler(event)" class="todo-button">ADD</button>
+            </div>
+        </form>
+        
+        <div class="todo-container">
+            <h1>Your Task</h1>
+            <div class="output">
+                <ul class="todo-list">
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
